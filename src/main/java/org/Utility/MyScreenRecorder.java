@@ -8,8 +8,6 @@ import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.io.File;
 import java.io.IOException;
-import java.rmi.registry.Registry;
-import java.text.Format;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
