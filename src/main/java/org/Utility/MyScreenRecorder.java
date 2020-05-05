@@ -11,8 +11,14 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.google.common.net.MediaType;
+import org.monte.media.Format;
+import org.monte.media.FormatKeys.MediaType;
+import org.monte.media.Registry;
+import org.monte.media.math.Rational;
+import org.monte.screenrecorder.ScreenRecorder;
 
+import static org.monte.media.AudioFormatKeys.*;
+import static org.monte.media.VideoFormatKeys.*;
 public class MyScreenRecorder extends ScreenRecorder {
 	public static ScreenRecorder screenRecorder;
 	public String name;
